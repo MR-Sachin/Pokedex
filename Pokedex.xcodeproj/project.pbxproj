@@ -15,6 +15,8 @@
 		C995178E2421F07A001E7299 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C995178D2421F07A001E7299 /* Pokemon.swift */; };
 		C99517902421F89F001E7299 /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C995178F2421F89E001E7299 /* bg.jpg */; };
 		C9951794242213D2001E7299 /* PokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9951793242213D2001E7299 /* PokeCell.swift */; };
+		C9951796242220F4001E7299 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = C9951795242220F3001E7299 /* pokemon.csv */; };
+		C995179824222274001E7299 /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = C995179724222274001E7299 /* csv.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		C995178D2421F07A001E7299 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		C995178F2421F89E001E7299 /* bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpg; sourceTree = "<group>"; };
 		C9951793242213D2001E7299 /* PokeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeCell.swift; sourceTree = "<group>"; };
+		C9951795242220F3001E7299 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
+		C995179724222274001E7299 /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,8 @@
 				C99517822421F031001E7299 /* Assets.xcassets */,
 				C99517842421F031001E7299 /* LaunchScreen.storyboard */,
 				C995178F2421F89E001E7299 /* bg.jpg */,
+				C9951795242220F3001E7299 /* pokemon.csv */,
+				C995179724222274001E7299 /* csv.swift */,
 				C99517872421F031001E7299 /* Info.plist */,
 			);
 			path = Pokedex;
@@ -151,6 +157,7 @@
 				C99517832421F031001E7299 /* Assets.xcassets in Resources */,
 				C99517902421F89F001E7299 /* bg.jpg in Resources */,
 				C99517812421F021001E7299 /* Main.storyboard in Resources */,
+				C9951796242220F4001E7299 /* pokemon.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +172,7 @@
 				C995177E2421F021001E7299 /* ViewController.swift in Sources */,
 				C995177C2421F021001E7299 /* AppDelegate.swift in Sources */,
 				C995178E2421F07A001E7299 /* Pokemon.swift in Sources */,
+				C995179824222274001E7299 /* csv.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
